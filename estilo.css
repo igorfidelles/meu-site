@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
+*{
+    margin: 0;
+    /* Define a margem padrão como 0 para todos os elementos */
+    padding: 0;
+    /* Define o preenchimento padrão como 0 para todos os elementos */
+    box-sizing: border-box;
+    /* Configura o modelo de caixa para incluir a borda no cálculo de largura e altura */
+    text-decoration: none;
+    /* Remove a decoração de texto padrão (sublinhado) para todos os elementos */
+    color: #98FB98;
+    /* Cor do texto*/
+}
+
+body {
+    background: #4B0082;
+}
+.cabecalho {
+    border-bottom: 4px solid #8181F7;
+    background-color:#1C1C1C;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.cabecalho-imagem {
+    height: 100px;
+
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 50px;
+
+}
+
+.cabecalho-menu-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.conteudo {
+    border-top: 0.4px solid 	#0000FF;
+    margin-bottom: 48px;
+      font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-texto-titulo1 {
+    font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+}
+
+.conteudo-principal-texto-titulo2 {
+    font-family : "Satisfy", cursive;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.conteudo-principal.texto-botao {
+    background-color: #ADFF2F;
+    width: 240px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px #32CD32;
+    border-radius: 25px;
+    color: #87CEEB;
+    font-size: 16px;
+}
+
+.conteudo-principal-imagem {
+    height: 430px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo3 {
+    border-top: 0.4px solid #ADFF2F;
+    padding-top: 20px;
+    font-family: "Lily Script One", system-ui;
+    font-weight: 600px;
+    font-size: 40px;
+}
+.conteudo-secundario-paragrafo {
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.rodape {
+    border-top: 4px solid #8181F7;
+    background-color: #1C1C1C;
+    padding-top:10px;
+    padding-bottom:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.rodape-texto-escrito {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-right: 20px;
+    color:gold;
+}
+
+.rodape-item-imagem{
+    width: 35px;
+}
+    
